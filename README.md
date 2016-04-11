@@ -1,33 +1,75 @@
+<p align="center">
+    <img width="300" src="https://rawgit.com/SalGnt/cscs/master/media/logo.svg" alt="Coding Style Conventions and Standards">
+</p>
+
 Coding Style Conventions and Standards
 ======================================
-A curated list of Coding Style Conventions and Standards.
 
-Docs
-----
+A curated list of _Coding Style Conventions and Standards_.
+
+
+Table of Contents
+-----------------
+
+- [Programming Languages](#programming-languages)
+- [Miscellaneous](#miscellaneous)
+
+
+Programming Languages
+---------------------
+
+### Arduino
+* **[Arduino Style Guide](https://www.arduino.cc/en/Reference/StyleGuide)**.
+* [The ArduPirates Coder's Bible](https://code.google.com/p/ardupirates/wiki/CodingConventions).
 
 ### C
 * [C Coding Standard](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html).
 * [Recommended C Style and Coding Standards](http://ieng9.ucsd.edu/~cs30x/indhill-cstyle.html).
+* [SEI CERT C Coding Standard](https://www.securecoding.cert.org/confluence/display/c/SEI+CERT+C+Coding+Standard).
 
 ### C&#35;
 * [C# Coding Standards and Naming Conventions](http://www.dofactory.com/reference/csharp-coding-standards).
 * **[Microsoft C# Coding Conventions (C# Programming Guide)](https://msdn.microsoft.com/en-us/library/ff926074.aspx)**.
+* [Mono Coding Guidelines](http://www.mono-project.com/community/contributing/coding-guidelines/).
 * [The Official raywenderlich.com C# Style Guide](https://github.com/raywenderlich/c-sharp-style-guide) - C# Style Guide for Unity Tutorials.
 
 ### C++
+* [Apache OpenOffice Cpp Coding Standards](https://wiki.openoffice.org/wiki/Cpp_Coding_Standards)
 * [C++ Coding Standard](http://www.possibility.com/Cpp/CppCodingStandard.html).
 * [C++ Coding Standard](https://users.ece.cmu.edu/~eno/coding/CppCodingStandard.html).
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
+* [High Integrity C++ Coding Standard](http://www.codingstandard.com/section/index/).
+* [SEI CERT C++ Coding Standard](https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=637).
 
 ### Clojure
 * [The Clojure Style Guide](https://github.com/bbatsov/clojure-style-guide) - A community coding style guide for the Clojure programming language.
 
+### Common Lisp
+* [Ariel Networks Common Lisp Style Guide](http://labs.ariel-networks.com/cl-style-guide.html).
+* [Google Common Lisp Style Guide](http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml).
+
+### D
+* **[The D Style](http://dlang.org/dstyle.html)**.
+
+### Dart
+* **[Dart Style Guide](https://www.dartlang.org/articles/style-guide/)**.
+
+### Elixir
+* [The Elixir Style Guide](https://github.com/niftyn8/elixir_style_guide) - A community driven style guide for Elixir.
+
+### Erlang
+* [Erlang Coding Standards & Guidelines](https://github.com/inaka/erlang_guidelines) - Inaka's Erlang Coding Guidelines.
+* [Programming Rules and Conventions](http://www.erlang.se/doc/programming_rules.shtml).
+
+### F&#35;
+* **[Microsoft Code Formatting Guidelines (F#)](https://msdn.microsoft.com/en-us/library/dd233191.aspx)**.
+* [The F# Component Design Guidelines](http://fsharp.org/specs/component-design-guidelines/).
+
+### Fortran
+* **[Fortran 90 Best Practices](http://www.fortran90.org/src/best-practices.html)**.
+
 ### Go
 * **[How to Write Go Code](https://golang.org/doc/code.html)**.
-
-### Git
-* [Git Style Guide](https://github.com/agis-/git-style-guide) - A Git Style Guide.
-* [Git Style Guide](https://github.com/jonathanong/git-style-guide) - Personal guide for using git with GitHub.
 
 ### Haskell
 * **[Haskell Programming guidelines](https://wiki.haskell.org/Programming_guidelines)**.
@@ -51,12 +93,15 @@ Docs
 * [Google Java Style](https://google.github.io/styleguide/javaguide.html).
 * [Java Programming Style Guidelines](http://geosoft.no/development/javastyle.html).
 * **[OpenJDK Java Style Guidelines](http://cr.openjdk.java.net/~alundblad/styleguide/)**.
+* [SEI CERT Oracle Coding Standard for Java](https://www.securecoding.cert.org/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java).
 * [The Official raywenderlich.com Java Style Guide](https://github.com/raywenderlich/java-style-guide) - The official Java style guide for raywenderlich.com.
 
 ### JavaScript
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) - JavaScript Style Guide.
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html).
 * [GitHub JavaScript Coding Style](https://github.com/styleguide/javascript).
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml).
+* [JavaScript Quality Guide](https://github.com/bevacqua/js) - A JavaScript Quality Guide.
 * [JavaScript Style Guide](https://github.com/bengourley/js-style-guide) - JavaScript style guide.
 * [JavaScript Style Guide](https://github.com/chamnap/javascript_style_guide) - JavaScript Style Guide.
 * [JavaScript Style Guide](https://github.com/mercadolibre/javascript-style-guide) - MercadoLibre JavaScript Style Guide.
@@ -67,6 +112,10 @@ Docs
 * [W3Schools JavaScript Style Guide and Coding Conventions](http://www.w3schools.com/js/js_conventions.asp).
 * [WordPress JavaScript Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/).
 
+#### AngularJS
+* **[An AngularJS Style Guide for Closure Users at Google](https://google.github.io/styleguide/angularjs-google-style.html)**.
+* [Angular Style Guide](https://github.com/johnpapa/angular-styleguide) - Angular Style Guide: A starting point for Angular development teams to provide consistency through good practices.
+
 ### JSON
 * [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).
 
@@ -75,6 +124,7 @@ Docs
 
 ### Markdown
 * [Markdown Style Guide](http://www.cirosantilli.com/markdown-style-guide/).
+* [Style Guidelines: Markdown](https://github.com/carwin/markdown-styleguide) - Formatting standards for readable & consistent Markdown.
 
 ### Objective-C
 * [GitHub Objective-C Style Guide](https://github.com/github/objective-c-style-guide) - Style guide & coding conventions for Objective-C projects.
@@ -86,10 +136,19 @@ Docs
 * [The Official wantedly.com Objective-C Style Guide](https://github.com/wantedly/objective-c-style-guide).
 * [Wonderful Objective-C Style Guide](https://github.com/markeissler/wonderful-objective-c-style-guide) - A complete OSX and iOS Objective-C coding style guide.
 
+### Perl
+* [Apache OpenOffice Perl Coding Standards](https://wiki.openoffice.org/wiki/Perl_Coding_Standards).
+* **[Perl Style Guide](http://perldoc.perl.org/perlstyle.html)**.
+* [SEI CERT Perl Coding Standard](https://www.securecoding.cert.org/confluence/display/perl/SEI+CERT+Perl+Coding+Standard).
+
 ### PHP
 * [MediaWiki PHP Coding Conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/PHP).
+* [ONGR Strict Coding Standard](https://github.com/ongr-io/ongr-strict-standard) - Strict PHPCS standard for PSR-2 code based on Squiz standards.
 * [PHP Framework Interop Group Coding Style Guide](http://www.php-fig.org/psr/psr-2/).
 * [WordPress PHP Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/).
+
+### Prolog
+* [Prolog Programming Guidelines](https://lifeware.inria.fr/~soliman/prolog_guidelines.html).
 
 ### Python
 * [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
@@ -106,11 +165,25 @@ Docs
 * [GitHub Ruby Coding Style](https://github.com/styleguide/ruby).
 * [MediaWiki Ruby Coding Conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/Ruby).
 * [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) - A community-driven Ruby coding style guide.
+* [The Unofficial Ruby Usage Guide](http://www.caliban.org/ruby/rubyguide.shtml).
+
+#### Ruby on Rails
+* **[Contributing to Ruby on Rails](http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html)**.
+* [The Rails Style Guide](https://github.com/bbatsov/rails-style-guide) - A community-driven Ruby on Rails 4 style guide.
+
+### Rust
+* [Rust Guidelines](https://aturon.github.io/)
+
+### Scala
+* **[Scala Style Guide](http://docs.scala-lang.org/style/)**.
 
 ### Shell
 * [Bash Style Guide](https://github.com/bahamas10/bash-style-guide) - A style guide for writing safe, predictable, and portable bash scripts (not sh!).
 * [Community Bash Style Guide](https://github.com/azet/community_bash_style_guide) - (community-driven) guide to writing useful and modern bash scripts. seriously.
 * [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml).
+
+### Standard ML
+* [MLton's Syntactic Conventions](http://mlton.org/SyntacticConventions).
 
 ### Swift
 * [GitHub Swift Style Guide](https://github.com/github/swift-style-guide) - Style guide & coding conventions for Swift projects.
@@ -128,9 +201,20 @@ Docs
 * [Google XML Document Format Style Guide](https://google.github.io/styleguide/xmlstyle.html).
 
 
+Miscellaneous
+------------
+
+### Changelog
+* [Keep a CHANGELOG](https://github.com/olivierlacan/keep-a-changelog) - If you maintain an open source project, please keep a changelog.
+
+### Git
+* [Git Style Guide](https://github.com/agis-/git-style-guide) - A Git Style Guide.
+* [Git Style Guide](https://github.com/jonathanong/git-style-guide) - Personal guide for using git with GitHub.
+
+
 Contributing
 ------------
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Contributions are welcome! Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 
 License
